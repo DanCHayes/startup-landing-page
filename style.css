@@ -1,0 +1,71 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+body {
+  font-family: 'Lobster', sans-serif;
+}
+
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #FD7900; 
+  }
+
+.faded {
+  color: rgba(201, 160, 122, 1); 
+  text-shadow: 2px 2px #632F00;
+}
+
+.faded2 {
+  color: rgba(182, 87, 0, 1); 
+  text-shadow: 2px 2px #632F00;
+}
+
+header.startup {
+    background-position: center;
+    background-image: url(https://www.musicroom.com/contentassets/b890657e5e52432aa74c829f3f515798/pianoday.jpg);
+    background-size: cover;
+    height: 100%;
+    opacity: 0.8;
+}
+
+header.startup hr {
+  margin-bottom: 30px; 
+}
+
+header.startup h1 {
+  font-size: 2rem;
+  margin-top: 1rem; 
+}
+
+header.startup h2 {
+  font-size: 1.5rem; 
+}
+
+br {
+    line-height: 8em;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 2px 2px #632F00;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  background-color: #FD7900;
+  border-color: #FD7900; }
+
+.btn-primary:hover {
+  background-color: #CA6100;
+  border-color: #CA6100;
+  border-width: 5px;
+  cursor: pointer;
+}
